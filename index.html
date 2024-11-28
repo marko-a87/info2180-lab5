@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>World Database Lookup</title>
+
+    <!-- you can modify this as needed or to your preference -->
+    <link href="world.css" type="text/css" rel="stylesheet" />
+
+    <!-- you write this -->
+    <script src="world.js" type="text/javascript"></script>
+  </head>
+
+  <body>
+    <header>
+      <h1>
+        <img src="world.png" alt="world" />
+        <div id="container">World Database Lookup</div>
+      </h1>
+    </header>
+
+    <main>
+      <div id="controls">
+        <label for="country"></label>
+        <input id="country" type="search" name="country" />
+        <div id="buttons">
+          <button id="lookup_country">Lookup Country</button>
+          <button id="lookup_cities">Lookup Cities</button>
+        </div>
+      </div>
+
+      <div id="result">
+        <!-- countries will appear here -->
+      </div>
+    </main>
+  </body>
+</html>
